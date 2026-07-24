@@ -2,6 +2,49 @@
 
 Session notes for picking this project back up. Newest entries at top.
 
+## 2026-07-24 — Ran both analysts, correlated findings, git-initialized the repo
+
+**What happened:**
+- Dispatched `endpoint-analyst` against `logs/windows/` and `cloud-analyst`
+  against `logs/cloud/` (the real registered subagent types — the harness
+  picked them up this session; last session had to use `general-purpose`
+  stand-ins with the instructions pasted inline because the types weren't
+  recognized yet). Saved their raw output to `analysis/endpoint.md` and
+  `analysis/cloud.md`.
+- Both agents independently converged on the same incident without shared
+  context — `mrodriguez` / `185.220.101.47` — validating that the synthetic
+  dataset's signal is coherent and discoverable per-source, not just when
+  read as a whole.
+- Manually correlated the two write-ups into
+  `analysis/investigation-2026-07-10-mrodriguez-compromise.md`: timeline
+  alignment, user/IP correlation, full attack chain, confidence assessment,
+  and gaps. Key finding: the endpoint analyst's "~7-hour dead zone" between
+  the C2 callback (09:08) and the FS01 lateral movement (16:04) is exactly
+  where the cloud analyst's sign-in/MFA/OAuth-consent activity (11:00-11:51)
+  sits — neither analysis could see this alone; only correlating both did.
+  This is effectively the `/investigate` methodology validated end-to-end,
+  even though the slash command itself wasn't invoked directly (done as
+  discrete agent dispatches + manual correlation instead).
+- Initialized git: `git init` (default branch `master`, not renamed to
+  `main`), added `.gitignore` (excludes `.claude/settings.local.json` — local
+  permission overrides, not shared config — plus standard Python/OS cruft),
+  set repo-scoped (not `--global`) git identity, and made the initial commit
+  (`9e241d4`, 24 files). No GitHub remote yet — user plans to create it
+  later.
+
+**Not yet done:**
+- No GitHub remote configured — repo is local-only.
+- `/investigate` still hasn't been invoked directly as a slash command (the
+  workflow it encodes has now been manually validated, but not the command
+  itself end-to-end).
+- The synthetic-data generation script still isn't committed (scratchpad-only
+  from last session) — regenerating/extending the dataset means rewriting it.
+- No automated timestamp-normalization helper exists — still documented-only
+  in `logs/README.md`.
+- `endpoint-analyst`/`cloud-analyst` still only have `Read`/`Bash` tools (no
+  `Grep`/`Glob`) — both ran fine against this dataset's size, but worth
+  revisiting if the dataset grows.
+
 ## 2026-07-23 — Synthetic multi-source dataset + /investigate command + analyst subagents
 
 **What happened:**
