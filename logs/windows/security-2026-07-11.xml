@@ -1,0 +1,2614 @@
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T07:15:51.1268198Z"/>
+    <EventRecordID>400406</EventRecordID>
+    <Correlation ActivityID="{abd77dd0-57a4-0003-07ff-2f4335270a20}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xe92c75</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x4e2</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">49730</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T07:16:24.7303001Z"/>
+    <EventRecordID>400366</EventRecordID>
+    <Correlation ActivityID="{7dd5541c-2043-0003-07ff-70b0c78f6928}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>DC1.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1204</Data>
+    <Data Name="TargetUserName">rpatel</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xb03ddb</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-005</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xc04</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.5.201</Data>
+    <Data Name="IpPort">57673</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T07:37:27.1129493Z"/>
+    <EventRecordID>400358</EventRecordID>
+    <Correlation ActivityID="{981d1431-3c5d-0003-07ff-ddf5e7655c6f}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xeb32fa</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x62d</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">54864</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T07:39:27.4307657Z"/>
+    <EventRecordID>400429</EventRecordID>
+    <Correlation ActivityID="{618ba96d-5762-0003-07ff-624213316ff6}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>DC1.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1209</Data>
+    <Data Name="TargetUserName">ogarcia</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x3dc1ba</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x01e</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">65518</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T07:42:47.9295976Z"/>
+    <EventRecordID>400445</EventRecordID>
+    <Correlation ActivityID="{924c74e9-29bb-0003-07ff-0e7661f17585}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1202</Data>
+    <Data Name="TargetUserName">abaker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x26df3d</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xb4f</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">51101</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T07:47:29.5939316Z"/>
+    <EventRecordID>400368</EventRecordID>
+    <Correlation ActivityID="{c2c52757-5b03-0003-07ff-fc21643ca0e4}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1214</Data>
+    <Data Name="TargetUserName">uwilliams</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x9993eb</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xcf1</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">60030</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T08:03:06.9848894Z"/>
+    <EventRecordID>400378</EventRecordID>
+    <Correlation ActivityID="{0cd2b544-1fc8-0003-07ff-c265ba397523}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x555858</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xf58</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">60622</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T08:06:41.7010350Z"/>
+    <EventRecordID>400403</EventRecordID>
+    <Correlation ActivityID="{bdae56d3-d12d-0003-07ff-237d81da1b29}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-017.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1217</Data>
+    <Data Name="TargetUserName">xdavis</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x366051</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x19f</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">65136</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T08:06:55.9943107Z"/>
+    <EventRecordID>400501</EventRecordID>
+    <Correlation ActivityID="{053b68b1-6bac-0003-07ff-e72634362596}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1217</Data>
+    <Data Name="TargetUserName">xdavis</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xf5c33f</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x8cc</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">61873</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8010000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T08:41:14.5034441Z"/>
+    <EventRecordID>400383</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>FS01.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-0-0</Data>
+    <Data Name="SubjectUserName">-</Data>
+    <Data Name="SubjectDomainName">-</Data>
+    <Data Name="SubjectLogonId">0x0</Data>
+    <Data Name="TargetUserSid">S-1-0-0</Data>
+    <Data Name="TargetUserName">uwilliams</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="Status">0xc000006d</Data>
+    <Data Name="FailureReason">%%2313</Data>
+    <Data Name="SubStatus">0xc000006a</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">0</Data>
+    <Data Name="ProcessId">0x0</Data>
+    <Data Name="ProcessName">-</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">61699</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T08:46:27.5771525Z"/>
+    <EventRecordID>400462</EventRecordID>
+    <Correlation ActivityID="{92b0ca23-22cf-0003-07ff-f681a38cdebe}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1215</Data>
+    <Data Name="TargetUserName">vmartin</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xb4be91</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x3ca</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">58668</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T08:55:54.2980747Z"/>
+    <EventRecordID>400351</EventRecordID>
+    <Correlation ActivityID="{4f603d9c-b43f-0003-07ff-9bca86d9970c}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-064.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1219</Data>
+    <Data Name="TargetUserName">zwalker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x0e904e</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x839</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">61402</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T09:09:55.1321154Z"/>
+    <EventRecordID>400362</EventRecordID>
+    <Correlation ActivityID="{41206940-ce52-0003-07ff-f08ddf03fc43}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>FS01.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1219</Data>
+    <Data Name="TargetUserName">zwalker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xcbfe93</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x2df</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">52713</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T09:39:36.2276772Z"/>
+    <EventRecordID>400471</EventRecordID>
+    <Correlation ActivityID="{a84f0633-1786-0003-07ff-0e3961a9b04f}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-017.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1202</Data>
+    <Data Name="TargetUserName">abaker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x6cf811</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xbcb</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">52324</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8010000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T09:56:18.2467128Z"/>
+    <EventRecordID>400420</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-0-0</Data>
+    <Data Name="SubjectUserName">-</Data>
+    <Data Name="SubjectDomainName">-</Data>
+    <Data Name="SubjectLogonId">0x0</Data>
+    <Data Name="TargetUserSid">S-1-0-0</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="Status">0xc000006d</Data>
+    <Data Name="FailureReason">%%2313</Data>
+    <Data Name="SubStatus">0xc000006a</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">0</Data>
+    <Data Name="ProcessId">0x0</Data>
+    <Data Name="ProcessName">-</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">58791</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T10:06:50.2105563Z"/>
+    <EventRecordID>400464</EventRecordID>
+    <Correlation ActivityID="{be013d9b-2458-0003-07ff-157e61639ec1}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>FS01.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1200</Data>
+    <Data Name="TargetUserName">mrodriguez</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xc6cbe3</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-017</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x80c</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.17.55</Data>
+    <Data Name="IpPort">55180</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T10:35:14.2333703Z"/>
+    <EventRecordID>400349</EventRecordID>
+    <Correlation ActivityID="{94de8acd-23ab-0003-07ff-c2d0c91befdd}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1202</Data>
+    <Data Name="TargetUserName">abaker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x969e97</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x02f</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">54315</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T10:59:36.5218846Z"/>
+    <EventRecordID>400401</EventRecordID>
+    <Correlation ActivityID="{9bb65806-8fdc-0003-07ff-9b890dc94a65}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1201</Data>
+    <Data Name="TargetUserName">jsmith</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x84e3cd</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-042</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x6c7</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.42.10</Data>
+    <Data Name="IpPort">49330</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T11:09:36.8477418Z"/>
+    <EventRecordID>400484</EventRecordID>
+    <Correlation ActivityID="{f1d198c4-06e9-0003-07ff-9bf22df69428}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-064.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1213</Data>
+    <Data Name="TargetUserName">tbrown</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x58e4f6</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x423</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">58275</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T11:14:26.5184956Z"/>
+    <EventRecordID>400435</EventRecordID>
+    <Correlation ActivityID="{836af8bc-84b4-0003-07ff-fa62ef20b7e5}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1204</Data>
+    <Data Name="TargetUserName">rpatel</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x220115</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-005</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xbdb</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.5.201</Data>
+    <Data Name="IpPort">61764</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T11:16:02.1837171Z"/>
+    <EventRecordID>400392</EventRecordID>
+    <Correlation ActivityID="{0e8a72ad-9c0e-0003-07ff-4a8fffa73ed7}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>DC1.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xba2043</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xb64</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">58175</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T11:29:55.6555509Z"/>
+    <EventRecordID>400409</EventRecordID>
+    <Correlation ActivityID="{eca868c8-a4a8-0003-07ff-c6f67701708e}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1211</Data>
+    <Data Name="TargetUserName">qroberts</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xc47618</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x3cc</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">54118</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T11:32:35.7128398Z"/>
+    <EventRecordID>400475</EventRecordID>
+    <Correlation ActivityID="{c85a09d8-e2f9-0003-07ff-4cb91dd248b0}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1219</Data>
+    <Data Name="TargetUserName">zwalker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xe84565</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x22d</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">50390</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T11:49:18.4418761Z"/>
+    <EventRecordID>400394</EventRecordID>
+    <Correlation ActivityID="{0f188a3c-9570-0003-07ff-cd203f895a58}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1203</Data>
+    <Data Name="TargetUserName">ktanaka</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xd2b2c9</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xde3</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">56295</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T12:03:22.1025197Z"/>
+    <EventRecordID>400426</EventRecordID>
+    <Correlation ActivityID="{1385a076-d7c7-0003-07ff-9143308b919c}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>DC1.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1212</Data>
+    <Data Name="TargetUserName">sfoster</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x905ebb</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-005</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x0cb</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.5.201</Data>
+    <Data Name="IpPort">55298</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T12:47:16.4488067Z"/>
+    <EventRecordID>400412</EventRecordID>
+    <Correlation ActivityID="{9024c37b-3b39-0003-07ff-3b9119cad08c}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x9ecc11</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xb88</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">59437</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T12:47:51.9029121Z"/>
+    <EventRecordID>400353</EventRecordID>
+    <Correlation ActivityID="{bd260475-fc62-0003-07ff-c9f6ececbd9f}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1214</Data>
+    <Data Name="TargetUserName">uwilliams</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x2adef4</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x32f</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">60830</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T13:21:44.2749645Z"/>
+    <EventRecordID>400456</EventRecordID>
+    <Correlation ActivityID="{a2e4c842-6d13-0003-07ff-f29f5549a63c}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1200</Data>
+    <Data Name="TargetUserName">mrodriguez</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xbe2b2d</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-017</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xa2c</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.17.55</Data>
+    <Data Name="IpPort">58394</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8010000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T13:37:32.9916530Z"/>
+    <EventRecordID>400360</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>DC1.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-0-0</Data>
+    <Data Name="SubjectUserName">-</Data>
+    <Data Name="SubjectDomainName">-</Data>
+    <Data Name="SubjectLogonId">0x0</Data>
+    <Data Name="TargetUserSid">S-1-0-0</Data>
+    <Data Name="TargetUserName">ogarcia</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="Status">0xc000006d</Data>
+    <Data Name="FailureReason">%%2313</Data>
+    <Data Name="SubStatus">0xc000006a</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">0</Data>
+    <Data Name="ProcessId">0x0</Data>
+    <Data Name="ProcessName">-</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">50616</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T13:58:37.8015394Z"/>
+    <EventRecordID>400493</EventRecordID>
+    <Correlation ActivityID="{b6499439-c300-0003-07ff-96a11a36db29}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1209</Data>
+    <Data Name="TargetUserName">ogarcia</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x659453</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xc1a</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">51957</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T13:58:44.4981192Z"/>
+    <EventRecordID>400384</EventRecordID>
+    <Correlation ActivityID="{30606502-9737-0003-07ff-82a722571f72}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1215</Data>
+    <Data Name="TargetUserName">vmartin</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x449215</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x7e4</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">64614</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T14:04:13.9589167Z"/>
+    <EventRecordID>400387</EventRecordID>
+    <Correlation ActivityID="{ed95ee1e-b4b7-0003-07ff-26a9273e88a3}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1205</Data>
+    <Data Name="TargetUserName">lwong</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x47fc00</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xb88</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">54737</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T14:12:16.2007932Z"/>
+    <EventRecordID>400440</EventRecordID>
+    <Correlation ActivityID="{024eec0c-c4bb-0003-07ff-ff993349952f}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>DC1.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x210005</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x5f8</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">54019</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T14:23:23.4492312Z"/>
+    <EventRecordID>400414</EventRecordID>
+    <Correlation ActivityID="{0902b0fd-5850-0003-07ff-343e45197855}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1212</Data>
+    <Data Name="TargetUserName">sfoster</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x79012a</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-005</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x049</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.5.201</Data>
+    <Data Name="IpPort">51925</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T14:26:22.2144398Z"/>
+    <EventRecordID>400494</EventRecordID>
+    <Correlation ActivityID="{1fb1a16a-8b36-0003-07ff-d8149541aa06}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>DC1.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1217</Data>
+    <Data Name="TargetUserName">xdavis</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x1ae682</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x343</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">60944</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T14:29:46.5369455Z"/>
+    <EventRecordID>400415</EventRecordID>
+    <Correlation ActivityID="{f36c2ee8-fb6b-0003-07ff-5aa7aaa3a839}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1219</Data>
+    <Data Name="TargetUserName">zwalker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x7e461e</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x7d1</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">58619</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T15:42:00.8198107Z"/>
+    <EventRecordID>400457</EventRecordID>
+    <Correlation ActivityID="{c31eda27-33f0-0003-07ff-e2ae83df2dad}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1209</Data>
+    <Data Name="TargetUserName">ogarcia</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xa70850</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xf1d</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">63255</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T15:44:39.4705432Z"/>
+    <EventRecordID>400361</EventRecordID>
+    <Correlation ActivityID="{68b92c8c-0f3b-0003-07ff-10dcb5a6118a}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1213</Data>
+    <Data Name="TargetUserName">tbrown</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xbd29e0</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xbfc</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">60148</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T16:10:09.3665229Z"/>
+    <EventRecordID>400467</EventRecordID>
+    <Correlation ActivityID="{b65e4e41-dceb-0003-07ff-80bf607ea7f8}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>FS01.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1213</Data>
+    <Data Name="TargetUserName">tbrown</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x6ed530</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xb16</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">49282</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T16:14:54.5496262Z"/>
+    <EventRecordID>400373</EventRecordID>
+    <Correlation ActivityID="{2708412b-1b5f-0003-07ff-732ecbdf5583}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1202</Data>
+    <Data Name="TargetUserName">abaker</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x08a2cf</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x5ca</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">49927</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T16:16:33.1289929Z"/>
+    <EventRecordID>400470</EventRecordID>
+    <Correlation ActivityID="{22d6e018-e405-0003-07ff-56ef0ef12a59}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>FS01.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1212</Data>
+    <Data Name="TargetUserName">sfoster</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xdf494e</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-005</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x589</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.5.201</Data>
+    <Data Name="IpPort">57301</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T16:39:54.9575375Z"/>
+    <EventRecordID>400496</EventRecordID>
+    <Correlation ActivityID="{6c1323f0-6417-0003-07ff-4b66c2983f42}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1210</Data>
+    <Data Name="TargetUserName">pnguyen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x82e3dc</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-064</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xda2</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.6.64</Data>
+    <Data Name="IpPort">59360</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T16:44:25.5787941Z"/>
+    <EventRecordID>400430</EventRecordID>
+    <Correlation ActivityID="{da16725f-4913-0003-07ff-81b9678c8f79}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1217</Data>
+    <Data Name="TargetUserName">xdavis</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xdcd966</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x7a6</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">65114</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T17:11:23.2594712Z"/>
+    <EventRecordID>400410</EventRecordID>
+    <Correlation ActivityID="{b41f3f93-9cbd-0003-07ff-d7e1f187f6eb}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x429003</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x287</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">61398</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T17:35:49.0813863Z"/>
+    <EventRecordID>400488</EventRecordID>
+    <Correlation ActivityID="{95e37849-f1d9-0003-07ff-444ae3d9108b}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1200</Data>
+    <Data Name="TargetUserName">mrodriguez</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x940f16</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-017</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x583</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.17.55</Data>
+    <Data Name="IpPort">57871</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T17:42:14.2911806Z"/>
+    <EventRecordID>400449</EventRecordID>
+    <Correlation ActivityID="{a373202b-4522-0003-07ff-bb256ddc1574}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-088.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1209</Data>
+    <Data Name="TargetUserName">ogarcia</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x69c8f8</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x7b3</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">51495</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T18:02:27.8924507Z"/>
+    <EventRecordID>400423</EventRecordID>
+    <Correlation ActivityID="{af13ab00-d6a9-0003-07ff-a8b0a5cb7f18}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-064.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1217</Data>
+    <Data Name="TargetUserName">xdavis</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x94b1c6</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xfd1</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">60755</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T18:10:11.3383618Z"/>
+    <EventRecordID>400452</EventRecordID>
+    <Correlation ActivityID="{312658f1-f613-0003-07ff-92857ebe8a8b}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xbe062f</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x3e7</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">55501</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T18:33:00.0947522Z"/>
+    <EventRecordID>400432</EventRecordID>
+    <Correlation ActivityID="{715034cc-13f7-0003-07ff-babbb1b32ec2}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-099.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1205</Data>
+    <Data Name="TargetUserName">lwong</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xb9d401</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-099</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x95c</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.9.99</Data>
+    <Data Name="IpPort">62891</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T18:58:41.8401014Z"/>
+    <EventRecordID>400396</EventRecordID>
+    <Correlation ActivityID="{6ab37672-db86-0003-07ff-4758d7bb3df6}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-064.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1201</Data>
+    <Data Name="TargetUserName">jsmith</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x0fb6a6</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-042</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xfff</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.42.10</Data>
+    <Data Name="IpPort">54325</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T19:22:04.5366045Z"/>
+    <EventRecordID>400379</EventRecordID>
+    <Correlation ActivityID="{79e64841-be17-0003-07ff-dbb5af0f5f50}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-017.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1212</Data>
+    <Data Name="TargetUserName">sfoster</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xd3e0f3</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-005</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x8d2</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.5.201</Data>
+    <Data Name="IpPort">51429</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T19:26:00.3915368Z"/>
+    <EventRecordID>400346</EventRecordID>
+    <Correlation ActivityID="{754bf153-3dcc-0003-07ff-15528cbd3f3b}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-064.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1212</Data>
+    <Data Name="TargetUserName">sfoster</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0xa5862a</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-005</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x86c</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.5.201</Data>
+    <Data Name="IpPort">51993</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T19:40:17.7380451Z"/>
+    <EventRecordID>400480</EventRecordID>
+    <Correlation ActivityID="{0c5d52c8-f505-0003-07ff-1c6292148865}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>FS01.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1203</Data>
+    <Data Name="TargetUserName">ktanaka</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x33d1ec</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xb90</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">60425</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8010000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T19:53:45.1174096Z"/>
+    <EventRecordID>400393</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-042.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-0-0</Data>
+    <Data Name="SubjectUserName">-</Data>
+    <Data Name="SubjectDomainName">-</Data>
+    <Data Name="SubjectLogonId">0x0</Data>
+    <Data Name="TargetUserSid">S-1-0-0</Data>
+    <Data Name="TargetUserName">vmartin</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="Status">0xc000006d</Data>
+    <Data Name="FailureReason">%%2313</Data>
+    <Data Name="SubStatus">0xc000006a</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">0</Data>
+    <Data Name="ProcessId">0x0</Data>
+    <Data Name="ProcessName">-</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">54104</Data>
+  </EventData>
+</Event>
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"/>
+    <EventID>4624</EventID>
+    <Version>3</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2026-07-11T19:53:57.7373448Z"/>
+    <EventRecordID>400492</EventRecordID>
+    <Correlation ActivityID="{1241c67b-fbf8-0003-07ff-eacebd8cdfcc}"/>
+    <Execution ProcessID="884" ThreadID="940"/>
+    <Channel>Security</Channel>
+    <Computer>WKSTN-005.corp.local</Computer>
+    <Security/>
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1004336348-1177238915-682003330-1207</Data>
+    <Data Name="TargetUserName">mchen</Data>
+    <Data Name="TargetDomainName">CORP</Data>
+    <Data Name="TargetLogonId">0x9dc6f2</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">WKSTN-088</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0xe82</Data>
+    <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    <Data Name="IpAddress">10.10.8.88</Data>
+    <Data Name="IpPort">56352</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="RemoteCredentialGuard">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
+</Events>
