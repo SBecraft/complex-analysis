@@ -61,7 +61,7 @@ pivots emerge.
 ## Step 6: Output
 
 Write a structured markdown report to
-`analysis/investigation-[date]-[subject].md`:
+`analysis/correlation-[date]-[subject].md`:
 - Frontmatter: anchor identity/host/IP, date range covered, sources consulted
 - **Timeline**: consolidated, UTC-normalized, chronological
 - **Initial access & execution**: what happened on the endpoint

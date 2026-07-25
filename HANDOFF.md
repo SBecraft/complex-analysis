@@ -16,7 +16,12 @@ Session notes for picking this project back up. Newest entries at top.
   dataset's signal is coherent and discoverable per-source, not just when
   read as a whole.
 - Manually correlated the two write-ups into
-  `analysis/investigation-2026-07-10-mrodriguez-compromise.md`: timeline
+  `analysis/correlation-2026-07-10-mrodriguez-compromise.md` (renamed
+  2026-07-25 from `investigation-2026-07-10-mrodriguez-compromise.md` to
+  match the `correlation-[date]-[subject].md` naming now documented in
+  CLAUDE.md — the `.claude/commands/investigate.md` command file itself
+  still says `investigation-[date]-[subject].md` and hasn't been updated to
+  match): timeline
   alignment, user/IP correlation, full attack chain, confidence assessment,
   and gaps. Key finding: the endpoint analyst's "~7-hour dead zone" between
   the C2 callback (09:08) and the FS01 lateral movement (16:04) is exactly

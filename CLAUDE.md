@@ -27,7 +27,7 @@ When building ingestion, parsing, or correlation logic, design with this specifi
 ## Slash commands
 
 - `.claude/commands/ingest-ti.md` — `/ingest-ti <url>`. Implements the threat intel processing workflow: fetches a report URL via `defuddle parse <url> --markdown`, extracts TTPs (mapped to MITRE ATT&CK IDs) and IOCs, suggests Atomic Red Team tests per technique, and writes a structured report to `analysis/ti-[date]-[campaign-name].md`. Doesn't work against JS-walled pages (e.g. AWS WAF challenge pages) or index/landing pages — needs a direct URL to an actual report.
-- `.claude/commands/investigate.md` — `/investigate <anchor>`. Implements the multi-source investigation workflow: takes an identity/hostname/IP anchor, dispatches the `cloud-analyst` subagent against `logs/cloud/` and the `endpoint-analyst` subagent against `logs/windows/`, correlates their findings (shared identities, IPs, timeline alignment), and writes a report to `analysis/investigation-[date]-[subject].md`.
+- `.claude/commands/investigate.md` — `/investigate <anchor>`. Implements the multi-source investigation workflow: takes an identity/hostname/IP anchor, dispatches the `cloud-analyst` subagent against `logs/cloud/` and the `endpoint-analyst` subagent against `logs/windows/`, correlates their findings (shared identities, IPs, timeline alignment), and writes a report to `analysis/correlation-[date]-[subject].md`.
 
 ## Subagents
 
