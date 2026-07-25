@@ -2,6 +2,22 @@
 
 Session notes for picking this project back up. Newest entries at top.
 
+## 2026-07-25 — Renamed investigation report naming convention to "correlation"
+
+**What happened:**
+- Renamed `analysis/investigation-2026-07-10-mrodriguez-compromise.md` to
+  `analysis/correlation-2026-07-10-mrodriguez-compromise.md` via `git mv`
+  (`02b52d8`), then updated the three places that documented or produced the
+  old `investigation-[date]-[subject].md` naming — CLAUDE.md's
+  `/investigate` description, `.claude/commands/investigate.md`'s Step 6
+  output path, and this file's 2026-07-24 entry — to `git commit`
+  (`b7ec5c6`) the new `correlation-[date]-[subject].md` convention
+  consistently across docs, command, and the one existing report.
+- No behavioral change to the workflow itself — purely a naming-convention
+  update so future `/investigate` runs and the existing sample report agree.
+
+**Not yet done:** (carried over, unchanged this session — see 2026-07-24 entry)
+
 ## 2026-07-24 — Ran both analysts, correlated findings, git-initialized the repo
 
 **What happened:**
@@ -17,11 +33,8 @@ Session notes for picking this project back up. Newest entries at top.
   read as a whole.
 - Manually correlated the two write-ups into
   `analysis/correlation-2026-07-10-mrodriguez-compromise.md` (renamed
-  2026-07-25 from `investigation-2026-07-10-mrodriguez-compromise.md` to
-  match the `correlation-[date]-[subject].md` naming now documented in
-  CLAUDE.md — the `.claude/commands/investigate.md` command file itself
-  still says `investigation-[date]-[subject].md` and hasn't been updated to
-  match): timeline
+  2026-07-25 — see that date's entry below — from
+  `investigation-2026-07-10-mrodriguez-compromise.md`): timeline
   alignment, user/IP correlation, full attack chain, confidence assessment,
   and gaps. Key finding: the endpoint analyst's "~7-hour dead zone" between
   the C2 callback (09:08) and the FS01 lateral movement (16:04) is exactly
