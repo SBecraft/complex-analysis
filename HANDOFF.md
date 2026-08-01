@@ -2,6 +2,38 @@
 
 Session notes for picking this project back up. Newest entries at top.
 
+## 2026-08-01 — Root README now describes the project, not the dataset
+
+**What happened:**
+- Found `README.md` at the repo root was a **byte-identical copy** of
+  `logs/README.md`, with `logs/README.md` itself deleted in the working tree
+  (both changes uncommitted, carried in from before this session). Net effect:
+  the top-level README documented only the synthetic dataset, and the path
+  that CLAUDE.md and `.claude/commands/investigate.md` Step 1 both tell readers
+  to open for correlation keys and timestamp rules no longer existed.
+- Restored `logs/README.md` (`git checkout --`) rather than repointing those
+  two references, keeping the dataset writeup where the repo's own docs say it
+  lives.
+- Rewrote root `README.md` as an actual project README: purpose and the two
+  workflows, the four log sources and why they aren't abstracted, directory
+  layout, `/ingest-ti` and `/investigate` (behavior, output paths, known
+  limits) with links to the example reports in `analysis/`, the two analyst
+  subagents and why correlation lives in the command rather than in them, the
+  dataset pointer, and the WSL/nvm + `xmllint` environment notes.
+- Committed as `5ddd4a9` on `master` — `README.md` only; restoring
+  `logs/README.md` made the tree match HEAD again, so it needed no commit.
+
+**Not yet done:**
+- `analysis/investigation-summary.md` (dated 2026-07-25) is still **untracked**
+  and overlaps heavily with `analysis/correlation-2026-07-10-mrodriguez-compromise.md`.
+  Left out of the commit and unmentioned in the README — needs a decision on
+  whether it's a keeper, a duplicate to delete, or something to fold into the
+  correlation report.
+- Everything from the 2026-07-24 entry carries over unchanged: no GitHub
+  remote, `/investigate` never run directly as a slash command, no committed
+  dataset-generation script, no timestamp-normalization helper, and the
+  analysts still have only `Read`/`Bash`.
+
 ## 2026-07-25 — Renamed investigation report naming convention to "correlation"
 
 **What happened:**
