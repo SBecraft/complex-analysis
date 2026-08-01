@@ -20,9 +20,8 @@ Session notes for picking this project back up. Newest entries at top.
   limits) with links to the example reports in `analysis/`, the two analyst
   subagents and why correlation lives in the command rather than in them, the
   dataset pointer, and the WSL/nvm + `xmllint` environment notes.
-- Committed as `5ddd4a9` on `master` — `README.md` only; restoring
-  `logs/README.md` made the tree match HEAD again, so it needed no commit.
-
+- Committed as `5ddd4a9` — `README.md` only; restoring `logs/README.md` made
+  the tree match HEAD again, so it needed no commit.
 - Committed `analysis/investigation-summary.md` (`84ae7bf`), which had been
   untracked since 2026-07-25. It looked at first like a duplicate of the
   correlation report, but it isn't: it compiles **all four** analysis
@@ -33,6 +32,10 @@ Session notes for picking this project back up. Newest entries at top.
 - **Standing constraint:** `analysis/` holds artifacts for a course the user is
   taking. Apparent redundancy between reports there is not grounds to
   consolidate or delete — ask first.
+- Renamed the branch `master` → `main` (`git branch -m`). Purely local and
+  history-preserving — no remote exists, so there was nothing to re-push or
+  re-point. All four commits above were authored while the branch was still
+  named `master`. The 2026-07-24 entry's note about this has been updated.
 
 **Not yet done:**
 - Everything from the 2026-07-24 entry carries over unchanged: no GitHub
@@ -81,8 +84,8 @@ Session notes for picking this project back up. Newest entries at top.
   This is effectively the `/investigate` methodology validated end-to-end,
   even though the slash command itself wasn't invoked directly (done as
   discrete agent dispatches + manual correlation instead).
-- Initialized git: `git init` (default branch `master`, not renamed to
-  `main`), added `.gitignore` (excludes `.claude/settings.local.json` — local
+- Initialized git: `git init` (default branch `master` — renamed to `main` on
+  2026-08-01, see that entry), added `.gitignore` (excludes `.claude/settings.local.json` — local
   permission overrides, not shared config — plus standard Python/OS cruft),
   set repo-scoped (not `--global`) git identity, and made the initial commit
   (`9e241d4`, 24 files). No GitHub remote yet — user plans to create it
