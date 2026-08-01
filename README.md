@@ -74,6 +74,14 @@ with the two per-source analyses it was built from in
 [`analysis/endpoint.md`](analysis/endpoint.md) and
 [`analysis/cloud.md`](analysis/cloud.md).
 
+[`analysis/investigation-summary.md`](analysis/investigation-summary.md)
+compiles across both workflows — the three investigation documents above plus
+the LAUNDRY BEAR TI report — into one write-up with a unified attack chain,
+IOCs, ATT&CK mapping, confidence assessment, and containment steps. It also
+carries the comparison none of the individual reports make: the TI advisory
+resembles the incident in TTPs (durable mail-scoped persistence) but shares no
+infrastructure with it, so it is context, not attribution.
+
 ## Subagents
 
 - **`endpoint-analyst`** — Windows Security + Sysmon: authentication events,

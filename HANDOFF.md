@@ -23,12 +23,18 @@ Session notes for picking this project back up. Newest entries at top.
 - Committed as `5ddd4a9` on `master` — `README.md` only; restoring
   `logs/README.md` made the tree match HEAD again, so it needed no commit.
 
+- Committed `analysis/investigation-summary.md` (`84ae7bf`), which had been
+  untracked since 2026-07-25. It looked at first like a duplicate of the
+  correlation report, but it isn't: it compiles **all four** analysis
+  documents — endpoint, cloud, correlation, *and* the LAUNDRY BEAR TI report —
+  and is the only one that compares the incident against the TI advisory
+  (TTP resemblance, no shared infrastructure, so context rather than
+  attribution). Linked from the README's `/investigate` section.
+- **Standing constraint:** `analysis/` holds artifacts for a course the user is
+  taking. Apparent redundancy between reports there is not grounds to
+  consolidate or delete — ask first.
+
 **Not yet done:**
-- `analysis/investigation-summary.md` (dated 2026-07-25) is still **untracked**
-  and overlaps heavily with `analysis/correlation-2026-07-10-mrodriguez-compromise.md`.
-  Left out of the commit and unmentioned in the README — needs a decision on
-  whether it's a keeper, a duplicate to delete, or something to fold into the
-  correlation report.
 - Everything from the 2026-07-24 entry carries over unchanged: no GitHub
   remote, `/investigate` never run directly as a slash command, no committed
   dataset-generation script, no timestamp-normalization helper, and the
