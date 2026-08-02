@@ -128,3 +128,22 @@ Python's stdlib (`xml.etree.ElementTree`).
 
 See [`CLAUDE.md`](CLAUDE.md) for the full working guidance and
 [`HANDOFF.md`](HANDOFF.md) for session history.
+
+## A Note on Placeholders
+
+This is public coursework, so anything that pointed at my local machine or
+personal accounts has been replaced with generic placeholders:
+
+| Placeholder | Stands for |
+|---|---|
+| `$HOME` | the home directory this repo was developed in |
+| `C:\Users\<username>` | the Windows user profile (Claude Desktop config lives here) |
+| `<repo-path>` / `<old-repo-path>` | this repo's absolute path on disk |
+
+Commits are authored under a GitHub noreply address rather than a personal
+email. If you clone this, substitute your own paths — the placeholder paths are
+documentation, not working config, and nothing is meant to run against them as
+written.
+
+See the [ai-defense-labs](https://github.com/SBecraft/ai-defense-labs) parent
+repo for the full course context.
