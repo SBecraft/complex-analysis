@@ -73,8 +73,40 @@ Session notes for picking this project back up. Newest entries at top.
     not a branch. New commits in this repo won't appear there until someone
     runs `git add complex-analysis && git commit` in the parent. The parent
     reporting this submodule as modified is normal, not an error.
+  - Working rhythm this establishes: a commit here is followed by
+    `git add complex-analysis && git commit && git push` in the umbrella.
+    Done four times today (`87d5845`, `d5a5c0c`, and two earlier); the pin is
+    current at `e31c5da`.
+- **README now opens with course context** — Module 8 of the WiCyS / Just
+  Hacking Training "AI Cyber Defense Ops" course taught by Anton Ovrutsky,
+  with a link back to the umbrella repo, and the paragraph on the course's
+  focus on the Claude ecosystem. Text supplied verbatim by the user; the
+  existing opening line was reworded from a fragment ("Repeatable workflows
+  for…") to a full sentence so it didn't read abruptly after it.
+- **Credential cleanup, outside this repo but part of this session.**
+  `aws-correlation/README.md` flagged that `~/.claude/personas/cross-siem.md`
+  hardcoded a Splunk lab password. Confirmed and fixed:
+  - The persona now reads `$SPLUNK_USERNAME` / `$SPLUNK_PASSWORD` from the
+    environment instead of a `Credentials:` block and an inline `curl -u`.
+  - **The credential was never committed to git** — verified against the full
+    history (`rev-list --all`) of the umbrella and all seven nested repos,
+    all clean. Only the umbrella and this repo have remotes anyway.
+  - It had spread beyond the one file into 9 local files under `~/.claude/`
+    (session transcripts, `file-history`, `paste-cache`) — 56 occurrences
+    replaced with a placeholder, backups taken, and every touched `.jsonl`
+    re-validated as parseable. The live session transcript was deliberately
+    skipped: rewriting a file being appended to risks corruption, and the
+    string keeps reappearing as it's discussed.
+  - `aws-correlation/README.md` updated (umbrella `6c7cc60`, `ccf057e`): the
+    resolved gap dropped, a "work in progress" status note added at the top.
+    The public README deliberately does **not** narrate which credential
+    leaked where — that belongs in private notes.
 
 **Not yet done:**
+- **The lab Splunk password was never rotated.** Everything above is
+  housekeeping around that; rotation is the only step that actually
+  invalidates a credential that sat in plaintext. Not something that can be
+  done from this environment.
 - The other six nested projects (`detection-workflow`, `mcp-hayabusa`,
   `mod11-personas-system-prompts`, `purple-team`, `siem-queries`,
   `sysmon-parser`) are still plain gitignores in the umbrella, because none
@@ -85,7 +117,9 @@ Session notes for picking this project back up. Newest entries at top.
   here. The umbrella's `.gitignore` comment documents this procedure.
 - `aws-correlation/.claude/settings.local.json` is committed to the public
   umbrella repo. Every other project here gitignores that file as local-only
-  permission overrides. Flagged to the user, not acted on.
+  permission overrides. **Read it before worrying** — it holds only
+  placeholders (`<splunk-host>`, `<adx-cluster>`, …), no credentials, so this
+  is a tidiness inconsistency, not an exposure. Flagged, not acted on.
 - Everything else from the 2026-07-24 entry carries over unchanged:
   `/investigate` never run directly as a slash command, no committed
   dataset-generation script, no timestamp-normalization helper, and the
