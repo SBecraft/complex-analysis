@@ -4,9 +4,10 @@ This repo is my working space for Module 8 — Complex Analysis in AI Cyber Defe
 
 The course centers on the Claude ecosystem — Claude Code and Claude Desktop — rather than treating AI as a single chat model bolted onto existing tools. Claude Code in particular behaves more like a productivity suite than a model: it ships with Hooks, Skills, Slash Commands, MCP support, and session/context management, and the course is built around learning how to compose those pieces into real detection engineering and threat intel workflows.
 
-Repeatable workflows for complex security analysis tasks, built as Claude Code
-slash commands and subagents. This is a documentation/workflow repo — there is
-no application, build, dependency install, or test suite.
+This module's project builds repeatable workflows for complex security analysis
+tasks, implemented as Claude Code slash commands and subagents. It is a
+documentation/workflow repo — there is no application, build, dependency
+install, or test suite.
 
 Two workflows are in scope:
 
