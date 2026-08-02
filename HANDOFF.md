@@ -2,7 +2,7 @@
 
 Session notes for picking this project back up. Newest entries at top.
 
-## 2026-08-01 — Project README, branch rename, published to GitHub
+## 2026-08-01 — Project README, branch rename, published to GitHub, submoduled into the umbrella
 
 **What happened:**
 - Found `README.md` at the repo root was a **byte-identical copy** of
@@ -45,23 +45,47 @@ Session notes for picking this project back up. Newest entries at top.
   through the web UI (`gh` is **not installed** in this WSL environment);
   auth went through the existing Windows Git Credential Manager helper, the
   same one the umbrella repo uses, with no extra setup.
-- **How this nests under `ai-defense-labs` — deliberately not a submodule.**
-  The parent repo (`SBecraft/ai-defense-labs`) already gitignores
-  `complex-analysis/` (its `.gitignore:9`, under a comment stating these are
-  independent repos excluded so the umbrella never records them as gitlinks),
-  and its README table already lists this folder as "(own git repo)". So
-  publishing required **zero changes to the parent** — no `.gitmodules`, no
-  gitlink in its index, both verified after the push. All seven nested
-  projects follow this pattern; as of today this is the only one with a
-  remote. If a future session is tempted to `git submodule add` this
-  directory, don't — it would fight the parent's `.gitignore` and break the
-  established convention.
+- **Now linked into `ai-defense-labs` as a submodule** (parent commit
+  `56bc458`). This reverses the position taken earlier in this same session —
+  publishing initially required zero parent changes, since the umbrella
+  gitignored `complex-analysis/`, and the plan was explicitly *not* to use a
+  submodule. What changed: the actual goal turned out to be "someone browsing
+  `github.com/SBecraft/ai-defense-labs` should see all the course project
+  folders," and the umbrella's gitignore meant it showed only `README.md`,
+  `.gitignore`, and `aws-correlation/`. GitHub cannot nest one repo inside
+  another; the only two options are a submodule or absorbing the files into
+  the parent, and a submodule is the one that keeps this repo independent.
+  - The confusion worth recording: `aws-correlation/` *does* show up inside
+    the umbrella, which looked like proof that nesting was already solved.
+    It isn't — that folder has no `.git`, isn't ignored, and its files are
+    tracked as ordinary blobs (mode `100644`). It shows up precisely because
+    it is **not** an independent repo. It's also the only README row without
+    the "(own git repo)" tag.
+  - Parent-side changes: `complex-analysis/` dropped from the umbrella's
+    `.gitignore` (`git submodule add` refuses an ignored path), `.gitmodules`
+    created, gitlink recorded at `6e4d848` (mode `160000`), README row now
+    links to the GitHub repo and says "linked here as a submodule", plus a
+    paragraph on the setup and the `--recurse-submodules` caveat.
+  - `git submodule add` **reused the existing repo in place** ("Adding
+    existing repo at 'complex-analysis' to the index") — no re-clone, no
+    history rewrite, this repo's own remote untouched.
+  - Consequence for future work here: the umbrella pins a **specific commit**,
+    not a branch. New commits in this repo won't appear there until someone
+    runs `git add complex-analysis && git commit` in the parent. The parent
+    reporting this submodule as modified is normal, not an error.
 
 **Not yet done:**
-- Umbrella README's `complex-analysis/` row doesn't link to the new GitHub
-  repo. Left alone on purpose — no sibling row links out either, so adding
-  one link only to this project would be inconsistent. Worth doing for all
-  rows at once, once the other repos have remotes.
+- The other six nested projects (`detection-workflow`, `mcp-hayabusa`,
+  `mod11-personas-system-prompts`, `purple-team`, `siem-queries`,
+  `sysmon-parser`) are still plain gitignores in the umbrella, because none
+  has a GitHub remote. Each needs a repo created via the web UI (`gh` isn't
+  installed), a push, then one `git submodule add`. Four of them
+  (`detection-workflow`, `mcp-hayabusa`, `siem-queries`, `sysmon-parser`) are
+  still on `master` — worth renaming to `main` before publishing, as was done
+  here. The umbrella's `.gitignore` comment documents this procedure.
+- `aws-correlation/.claude/settings.local.json` is committed to the public
+  umbrella repo. Every other project here gitignores that file as local-only
+  permission overrides. Flagged to the user, not acted on.
 - Everything else from the 2026-07-24 entry carries over unchanged:
   `/investigate` never run directly as a slash command, no committed
   dataset-generation script, no timestamp-normalization helper, and the
