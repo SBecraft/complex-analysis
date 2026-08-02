@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project status
 
-This is a documentation/workflow repo, not an application — there is no build, dependency install, or test suite to run. It's a git repository (initialized locally; no GitHub remote configured yet). Both workflows described below have working slash commands, and the multi-source investigation workflow additionally has a synthetic practice dataset and two analyst subagents. See `HANDOFF.md` for session-by-session history.
+This is a documentation/workflow repo, not an application — there is no build, dependency install, or test suite to run. It's a git repository on branch `main`, published to `https://github.com/SBecraft/complex-analysis`. Both workflows described below have working slash commands, and the multi-source investigation workflow additionally has a synthetic practice dataset and two analyst subagents. See `HANDOFF.md` for session-by-session history.
 
 ## Purpose
 
@@ -47,4 +47,5 @@ This is a WSL (Ubuntu) environment. Node.js is managed via **nvm**, not the Wind
 - Do not fall back to the Windows-native `node.exe`/npm global installs under `AppData/Roaming/npm` — mixing them causes module path resolution errors (Windows-style path handling breaks on WSL paths like `/mnt/c/...`).
 - Global CLI tools currently installed under nvm: `defuddle` (HTML/article content extraction — used for pulling clean text out of threat intel reports/pages during ingestion).
 - `xmllint` is **not** installed in this environment. To validate the XML log files under `logs/windows/`, use Python's stdlib (`xml.etree.ElementTree`), not `xmllint`.
-- Git identity is configured locally (repo-scoped, not `--global`) as SBecraft / 139415354+SBecraft@users.noreply.github.com. No GitHub remote yet.
+- Git identity is configured locally (repo-scoped, not `--global`) as SBecraft / 139415354+SBecraft@users.noreply.github.com. Remote `origin` is `https://github.com/SBecraft/complex-analysis.git`, with `main` tracking `origin/main`; HTTPS auth goes through the Windows Git Credential Manager helper. `gh` is not installed here — create repos via the web UI.
+- This directory sits inside the `ai-defense-labs` umbrella repo but is **its own independent repository**, not a submodule. The parent gitignores `complex-analysis/` precisely so it never records a gitlink — don't `git submodule add` it, and don't expect parent commits to capture work done here.

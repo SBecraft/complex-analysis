@@ -2,7 +2,7 @@
 
 Session notes for picking this project back up. Newest entries at top.
 
-## 2026-08-01 — Root README now describes the project, not the dataset
+## 2026-08-01 — Project README, branch rename, published to GitHub
 
 **What happened:**
 - Found `README.md` at the repo root was a **byte-identical copy** of
@@ -33,13 +33,37 @@ Session notes for picking this project back up. Newest entries at top.
   taking. Apparent redundancy between reports there is not grounds to
   consolidate or delete — ask first.
 - Renamed the branch `master` → `main` (`git branch -m`). Purely local and
-  history-preserving — no remote exists, so there was nothing to re-push or
-  re-point. All four commits above were authored while the branch was still
-  named `master`. The 2026-07-24 entry's note about this has been updated.
+  history-preserving — no remote existed yet at that point, so there was
+  nothing to re-push or re-point. All four commits above were authored while
+  the branch was still named `master`. The 2026-07-24 entry's note about this
+  has been updated. The rename also means the branch now matches the umbrella
+  repo's default, which mattered an hour later at push time.
+- **Published to GitHub** — remote is now
+  `https://github.com/SBecraft/complex-analysis.git`, `main` tracking
+  `origin/main`, 10 commits / 26 files pushed. This closes the "no GitHub
+  remote" item that had carried since 2026-07-24. The empty repo was created
+  through the web UI (`gh` is **not installed** in this WSL environment);
+  auth went through the existing Windows Git Credential Manager helper, the
+  same one the umbrella repo uses, with no extra setup.
+- **How this nests under `ai-defense-labs` — deliberately not a submodule.**
+  The parent repo (`SBecraft/ai-defense-labs`) already gitignores
+  `complex-analysis/` (its `.gitignore:9`, under a comment stating these are
+  independent repos excluded so the umbrella never records them as gitlinks),
+  and its README table already lists this folder as "(own git repo)". So
+  publishing required **zero changes to the parent** — no `.gitmodules`, no
+  gitlink in its index, both verified after the push. All seven nested
+  projects follow this pattern; as of today this is the only one with a
+  remote. If a future session is tempted to `git submodule add` this
+  directory, don't — it would fight the parent's `.gitignore` and break the
+  established convention.
 
 **Not yet done:**
-- Everything from the 2026-07-24 entry carries over unchanged: no GitHub
-  remote, `/investigate` never run directly as a slash command, no committed
+- Umbrella README's `complex-analysis/` row doesn't link to the new GitHub
+  repo. Left alone on purpose — no sibling row links out either, so adding
+  one link only to this project would be inconsistent. Worth doing for all
+  rows at once, once the other repos have remotes.
+- Everything else from the 2026-07-24 entry carries over unchanged:
+  `/investigate` never run directly as a slash command, no committed
   dataset-generation script, no timestamp-normalization helper, and the
   analysts still have only `Read`/`Bash`.
 
